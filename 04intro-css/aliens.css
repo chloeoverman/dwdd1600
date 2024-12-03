@@ -1,0 +1,152 @@
+ // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.arimo-<uniquifier> {
+  font-family: "Arimo", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Title{background-color: #6dab24;}
+
+/*header info*/
+
+header{
+color: #151515;
+    background-color: #6dab24;
+    padding: 1rem;
+    text-align: center;
+font-size: 1rem;}
+
+header h1 {
+    margin: 0;
+    color: #151515;
+padding: 1.5rem;}
+
+header p {
+    color: #151515;
+    letter-spacing: .5}
+
+/*navigation info*/
+
+nav { background-color: #e2e0a3;
+text-align: center;
+font-weight:200;
+    font-size: 1rem;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;}
+
+nav a {
+    margin:0; 
+text-decoration: none;
+    color: #151515;
+    font-weight: 700;
+    display: block;
+    padding: 1rem 9rem}
+
+nav li.active a {
+    background-color:#2b5669;
+        color: #6dab24}
+nav a:hover {
+    color: #2b5669;
+}
+
+/*main info*/
+
+main {
+    text-align: center;
+    background-color: #efefef;
+    padding:.95rem;
+}
+
+main h1{
+    color: #1a3e4c;
+    margin: 2px;
+    font-size: 1.75rem;
+}
+main h2{
+    color:#1a3e4c;
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+
+main h3{
+    color:#1a3e4c;
+    margin: 1rem
+}
+main p{
+     color:#1a3e4c;
+    margin:0;
+    font-size: .95rem;
+}
+
+main ul{
+    background-color: #e2e0a3;
+    text-align: left;
+list-style-type: circle;
+    font-size: .75rem;
+}
+
+main li{ margin-bottom: .5rem;
+    font-size: 1rem;
+padding: .125rem;} 
+
+main a{ 
+color: #6dab24}
+
+main a:hover{
+    color: #ff0000;
+}
+
+main address {
+      background-color:#e2e0a3;
+    padding: 1rem;
+    border: 2px solid #2b5669;
+    margin-top: 1rem;
+        margin-bottom: 1rem;
+    font-size: .75rem;
+}
+
+main dl dt{
+    color: #2b5669;
+    font-weight: 700;
+    padding: .25rem
+}
+
+main dl dd{
+    padding: .25 rem;
+    color:#024873;
+    font-size: .9rem;
+}
+
+main ol{
+    color: #2b5699;
+padding:.0125rem;
+text-align: left;
+    margin left: 8rem} 
+
+/*footer info*/
+
+footer{
+    text-align: center;
+    color: #024873;
+padding: .5rem 0;
+    font-size: .85rem;
+background-color: #e2e0a3
+    
+}
+
+footer a {
+    font-size:1rem;
+    color: #6dab24
+}
+
+footer a:hover {
+    color: #ff0000;
+}
